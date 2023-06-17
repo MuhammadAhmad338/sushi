@@ -1,0 +1,65 @@
+.subscription {
+    font-family: var(--nunito-display);
+    flex-direction: column;
+    background-color: var(--primary-color);
+    background-image: url('../../assets/subscribe_bg.png');
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.subscription h2 {
+    font-weight: bold;
+    font-size: 88px;
+    line-height: 123px;
+    color: #fff;
+    text-align: center;
+}
+
+.subscription p {
+    font-size: 18px;
+    opacity: 0.5;
+    margin-top: 15px;
+    font-weight: 300;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.subscription__form {
+    min-width: 480px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 14px 14px 14px 24px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 46px;
+}
+
+.subscription__form input {
+    flex: 1;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.subscription__form input::placeholder {
+   color: #fff;
+   opacity: 0.5;
+}
+
+.subscription__form button {
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: var(--nunito-display);
+    cursor: pointer;
+}
